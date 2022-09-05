@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./custom.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home Light</title>
+</head>
+<body class="dark:bg-slate-800">
+    <!-- navbar -->
+    <nav class="bg-amber-400 py">
+        <div class="w-full sm:mx-auto sm:w-10/12 md:9/12 lg:8/12 flex md:justify-around ">
+            <!-- navigation links 1 -->
+            <div class="w-3/12 justify-around hidden md:flex pt-3 lg:pt-5">
+                <a href="#" class="hover:font-bold lg:text-lg">Home</a>
+                <a href="#" class="hover:font-bold lg:text-lg">Contact</a>
+            </div>
+            <!-- logo -->
+            <div class="w-1/2 sm:w-4/12 md:w-3/12 flex justify-around p-3">
+                <img src="./Assets/logo.svg" alt="Home Smart">
+            </div>
+            <!-- navigation links 2 -->
+            <div class="w-3/12 flex justify-around hidden md:flex pt-3 lg:pt-5">
+                <a href="#" class="hover:font-bold lg:text-lg">Login</a>
+                <a href="#"><button class="lg:text-lg px-2 py-1 bg-green-600 rounded-md text-white hover:shadow-lg hover:shadow-green-400/80">Sign Up</button></a>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="
+     h-96 bg-gradient-to-b from-amber-400 to-amber-600 inset-0 bottom-8 md:bottom-24 lg:bottom-32">
+    <div class="container grid grid-rows-1">
+        <img src="/Assets/couch.png" alt="Couch" class="col-start-1 col-end-2 absolute z-0  row-start-1 row-end-1 mt-52 sm:mt-48 sm:w-10/12  md:max-w-2xl left-1/2 -translate-x-1/2">
+        <img src="/Assets/app.svg" alt="Couch" class="col-start-1 col-end-2 absolute z-1 row-start-1 row-end-1 w-5/12 mt-14  sm:w-4/12 md:w-56 left-1/2 -translate-x-1/2">
+    </div>
+    <!-- download the app btn -->
+    <div class="text-center mx-auto">
+        <a href="#"><button class="px-2 py-1 rounded-lg bg-amber-400 absolute left-1/2 -translate-x-1/2 mt-525px text-white font-semibold md:text-lg hover:shadow-lg hover:shadow-amber-500/80 flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg> Download The App</button></a>
+    </div>
+    </section>
+    <!-- features section -->
+    <section class="flex justify-between mt-52">
+        <!-- side pattern 1 -->
+        <div class="hidden md:flex items-center">
+            <img src="/Assets/dots.svg" class="h-96 md:h-62" alt="dots pattern">
+        </div>
+        <!-- features -->
+        <div class="flex flex-col mx-auto lg:flex-row space-y-10 lg:space-y-6 lg:mt-24">
+            <!-- safe  -->
+            <div class="flex flex-col items-center lg:mt-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 p-3 rounded-full border border-8 border-amber-400 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <h2 class="font-bold text-center text-lg mt-3 dark:text-white">Safe</h2>
+                <h3 class="w-9/12 text-center mt-2 dark:text-white">Our products are safe and private out-of-the box</h3>
+            </div >
+            <!-- efficient -->
+            <div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 p-3 rounded-full border border-8 border-amber-400 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg> 
+                <h2 class="font-bold text-center text-lg mt-3 dark:text-white">Efficient</h2>
+                <h3 class="w-9/12 text-center mt-2 dark:text-white">Feel good about your wallet and enviornment.</h3>
+            </div>
+            <!-- proven -->
+            <div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 p-3 rounded-full border border-8 border-amber-400 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+                <h2 class="font-bold text-center text-lg mt-3 dark:text-white">Proven</h2>
+                <h3 class="w-9/12 text-center mt-2 dark:text-white">Leading the smart home world for 10+ yearss</h3>
+            </div>
+        </div>
+        <!-- side pattern 2 -->
+        <div class="hidden md:flex items-center">
+            <img src="/Assets/dots.svg" class="h-96" alt="dots pattern">
+        </div>
+
+    </section>
+    <!-- our partners -->
+    <section class="lg:max-w-6xl mx-auto">
+        <h3 class="font-bold mt-8 text-4xl text-center text-amber-400">Our Partners</h3>
+        <h2 class="mt-6 w-10/12 text-center mx-auto text-lg lg:mt-8 max-w-2xl dark:text-white">We have partnered with hundreds of smart home brands to help you create a smart home that fits your needs.</h2>
+        <!-- partnered brands -->
+        <div class="grid grid-rows-4 w-11/12 mx-auto gap-2 gap-y-6 justify-around mt-8 lg:mt-10">
+            <div class="row-start-1 row-end-1 col-start-1 col-end-2 flex justify-around shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner1.svg" alt="" class="" >
+            </div>
+            <div class="row-start-1 row-end-1 col-start-2 col-end-3 flex justify-around shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner2.svg" alt="" >
+            </div>
+            <div class="row-start-2 row-end-2 col-start-1 col-end-2 md:row-start-1 md:row-end-1 md:col-start-3 md:col-end-4 flex justify-around shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner5.svg" alt="" >
+            </div>
+            <div class="row-start-2 row-end-2 col-start-2 col-end-3 md:row-start-2 md:row-end-2 md:col-start-1 md:col-end-2 lg:row-start-1 lg:row-end-1 lg:col-start-4 lg:col-end-5 flex justify-around shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner4.svg" alt="" >
+            </div>
+            <div class="row-start-3 row-end-3 col-start-1 col-end-2 md:row-start-2 md:row-end-2 md:col-start-2 md:col-end-3 lg:col-start-1 lg:col-end-3 flex-0 mx-auto justify-around py-3 shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner3.svg" alt="" >
+            </div>
+            <div class="row-start-3 row-end-3 col-start-2 col-end-3 md:row-start-2 md:row-end-2 md:col-start-3 md:col-end-4 lg:col-start-2 lg:col-end-4 flex-0 mx-auto justify-around py-3 shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner6.svg" alt="" >
+            </div>
+            <div class="row-start-4 row-end-4 col-start-1 col-end-3 md:row-start-3 md:row-end-3 md:col-start-2 md:col-end-3  lg:row-start-2 lg:row-end-3 lg:col-start-3 lg:col-end-5 flex-0 mx-auto justify-around shadow shadow-lg dark:bg-amber-400 dark:shadow-gray-100/50 dark:shadow-md rounded-lg">
+                <img src="/Assets/partner7.svg" alt="" >
+            </div>
+
+        </div>
+    </section>
+    <!-- relax you're home section -->
+    <section class="mt-40 md:mt-16 lg:mt-6">
+        <!-- image and text container -->
+        <div class="flex flex-col lg:flex-row-reverse -mt-40 lg:max-w-4xl lg:mx-auto lg:justify-between dark:text-white ">
+            <!-- image -->
+            <div class="mx-auto z-1 lg:w-1/2">
+                <img src="/Assets/table.png" alt="table" class="w-60 md:w-72 lg:mx-auto lg:w-96">
+            </div>
+            <!-- text container -->
+            <div class="mt-3 w-10/12 mx-auto md:mt-10 lg:w-1/2">
+                <h3 class="text-6xl text-left font-bold lg:mt-6">Relax, you're home!</h3>
+                <h5 class="mt-6 text-lg text-justify">All our supported hardware includes traditional input so that you can integrate our products in your house in such a way that's best for everyone.</h5>
+                <a href="#"><button class="bg-amber-400 px-3 py-2 font-semibold rounded-lg mt-6 dark:text-black">Sign Up</button></a>
+            </div>
+        </div>
+        <div class="w-full lg:absolute mt-64">
+            <!-- bg-stip -->
+            <div class=" md:flex w-full h-24 bg-green-800 absolute -mt-44 -z-10 -translate-y-10"></div>
+            <!-- bg-circle -->
+            <div class="hidden md:flex border border-8 border-amber-400 rounded-full w-44 h-44  absolute -mt-64 -translate-y-14 left-3/4 translate-x-4 lg:translate-x-6 -z-20 ">
+        </div>
+        </div>
+    </section> 
+     <!--login section  -->
+     <section>
+        <div class="max-w-4xl flex flex-col sm:flex-row sm:justify-around -my-28 -translate-y-2 space-y-6 lg:mt-36 mx-auto">
+            <div class="sm:flex-1">
+                <!-- lamp -->
+                <div class="flex justify-around">
+                    <img src="/Assets/lamp.png" alt="lamp" class="w-44">
+                </div>
+                <!-- app -->
+                <div class="hidden md:flex justify-around mt-6">
+                    <img src="/Assets/app.svg" alt="Mobile Application" class="w-44">
+                </div>
+                <!-- btn -->
+                <div class="flex justify-around mt-4 sm:mt-16">
+                    <a href="#"><button class="px-2 py-1 font-semibold hover:shadow hover:shadow-lg hover:shadow-amber-400/80 bg-amber-400 rounded-md flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg> Download The App</button></a>
+                </div>
+            </div>
+            <!-- form -->
+            <div class="p-3 max-w-md w-96 mx-auto sm:flex-1 md:pt-12">
+                <div class="border border-4 border-black rounded-md p-6 space-y-6 dark:border-amber-400">
+                    <h3 class="text-2xl font-bold text-center dark:text-white">Let's Connect</h3>
+                    <form class="flex flex-col space-y-4">
+                        <label for="name" class="text-lg font-semibold dark:text-white">Your name</label>
+                        <input type="text" id="name" class="border border-4 border-amber-400 w-11/12 h-12 rounded-lg dark:bg-amber-400 dark:border-amber-300 dark:text-black">
+                        <label for="email" class="text-lg font-semibold dark:text-white">Your Email</label>
+                        <input type="text" id="email" class="border border-4 border-amber-400 w-11/12 h-12 rounded-lg dark:bg-amber-400 dark:border-amber-300 dark:text-black">
+                        <label for="query" class="text-lg font-semibold dark:text-white">How can we help you?</label>
+                        <textarea name="query" id="query" cols="25" rows="8" class="border border-4 border-amber-400 W-11/12 rounded-lg dark:bg-amber-400 dark:border-amber-300 dark:text-black"></textarea>
+                        <button type="submit" class="px-2 py-1 bg-gray-800 rounded-md w-20 text-white text-xl dark:bg-amber-400 dark:text-black">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    
+</body>
+</html>
